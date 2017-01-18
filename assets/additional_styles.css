@@ -89,3 +89,7 @@ h1, h2, h3, h4 {
 .margin-below-bottom-xl {
   margin-bottom: 200px;
 }
+/* Griffin's Styles */
+div {
+  border: 1px solid black;
+}
