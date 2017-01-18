@@ -89,7 +89,134 @@ h1, h2, h3, h4 {
 .margin-below-bottom-xl {
   margin-bottom: 200px;
 }
-/* Griffin's Styles */
-div {
+/********* Griffin's Styles *********/
+/*div {
   border: 1px solid black;
+}*/
+.container {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  width: 100%;
 }
+h4 {
+  font-weight: 700;
+}
+p {
+  font-size: 14px;
+}
+/* Nav Styling */
+nav {
+  background-color: rgb(249, 45, 63) !important;
+  border-bottom: 1px solid white !important;
+}
+nav a {
+  color: white !important;
+}
+/* end of nav styling */
+
+ /* who-delivers-section syling */
+.who-delivers-section {
+  background: url('images/main-hero.jpg');
+  background-size: cover;
+  height: 500px;
+}
+.who-delivers-section h2 {
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+}
+#enter-address-form {
+  color: white;
+  display: block;
+  text-align: center;
+}
+/* end of who-delivers-section syling */
+
+/* how-to-foodhub-section styling */
+.how-to-foodhub-section h2, .how-to-foodhub-section p, .how-to-foodhub-section
+h4 {
+  text-align: center;
+}
+.how-to-foodhub-section img {
+  border-radius: 50%;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+/* end of how-to-foodhub-section styling */
+
+/* sound-bites-section styling */
+.sound-bites-section {
+  background-color: rgb(238,238,238);
+  padding: 0 20px;
+}
+.sound-bites-section h2 {
+  text-align: center;
+}
+.sound-bites-section img {
+  border-radius: 50%;
+  height: 75px;
+}
+/* end of sound-bites-section */
+
+/* download-apps-section styling */
+.download-apps-section {
+  background: url('images/download-hero.jpg') no-repeat center center;
+  padding-top: 250px;
+  background-size: cover;
+  height: 800px;
+  color: white;
+  text-align: center;
+}
+.download-apps-section h2 {
+  font-weight: 700;
+}
+.download-apps-section p {
+  font-size: 24px;
+}
+.download-apps-section img {
+  height: 75px;
+}
+/* end of download-apps-section */
+
+/* why-order-section styling */
+.why-order-section {
+  text-align: center;
+  background-color: rgb(238,238,238);
+}
+.why-order-section img {
+  border-radius: 50%;
+  height: 200px;
+}
+/* end of why-order-section styling */
+
+/* about-foodhub-section styling */
+.about-foodhub-section {
+  height: 200px;
+}
+.about-foodhub-section h2 {
+  text-align: center;
+  display: block;
+  margin-top: 50px;
+}
+.about-foodhub-section p {
+  margin-top: 30px;
+  line-height: 1.6;
+}
+/* end of about-foodhub-section styling */
+
+/* footer styling */
+footer {
+  background-color: rgb(51, 46, 166);
+  color: white;
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+footer ul {
+  list-style: none;
+}
+footer li {
+  margin-bottom: 10px;
+}
+/* end of footer styling */
