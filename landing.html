@@ -71,19 +71,20 @@
         </h2>
 
         <form id="enter-address-form">
-          <div>
+          <div class="form-group">
             <label>
               Enter your address below.
             </label>
 
-            <div>
-              <i class="fa fa-map-marker"></i>
-
-              <input type="text" placeholder="Street address, city, state">
+            <div class="input-group">
+              <span id="input-addon" class="input-group-addon">
+                <i class="fa fa-map-marker"></i>
+              </span>
+              <input id="input-text1" type="text" placeholder="Street address, city, state">
             </div>
           </div>
 
-          <button type="submit">
+          <button type="submit" class="btn btn-primary btn-block">
             Find Food
           </button>
         </form>
@@ -225,10 +226,10 @@
       </div>
     </div>
     <footer class="row">
-      <div class="col-md-3">
-        <h4>Sign up for special offers</h4>
+      <div class="col-md-3 sign-up-form-col">
 
-        <form>
+        <form id="sign-up-form">
+          <h4>Sign up for special offers</h4>
           <div>
             <input type="email" placeholder="Email">
           </div>
@@ -237,7 +238,7 @@
             <input type="number" placeholder="ZIP code">
           </div>
 
-          <button type="submit">Send me treats</button>
+          <button class="btn btn-primary btn-block" type="submit">Send me treats</button>
         </form>
       </div>
       <div class="col-md-3">

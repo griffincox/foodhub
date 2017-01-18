@@ -123,12 +123,13 @@ nav a {
 .who-delivers-section h2 {
   color: white;
   margin-top: 100px;
-  text-align: center;
 }
 #enter-address-form {
   color: white;
   display: block;
-  text-align: center;
+}
+#input-text1 {
+  width: 100%;
 }
 /* end of who-delivers-section syling */
 
@@ -193,12 +194,12 @@ h4 {
 
 /* about-foodhub-section styling */
 .about-foodhub-section {
-  height: 200px;
+  height: 300px;
 }
 .about-foodhub-section h2 {
   text-align: center;
   display: block;
-  margin-top: 50px;
+  margin-top: 75px;
 }
 .about-foodhub-section p {
   margin-top: 30px;
@@ -218,5 +219,15 @@ footer ul {
 }
 footer li {
   margin-bottom: 10px;
+}
+#sign-up-form {
+  margin-left: 20px;
+}
+#sign-up-form input {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
 }
 /* end of footer styling */
