@@ -149,6 +149,9 @@ h4 {
   margin-bottom: 20px;
   margin-top: 50px;
 }
+.how-to-foodhub-section h2 {
+  margin-top: 50px;
+}
 /* end of how-to-foodhub-section styling */
 
 /* sound-bites-section styling */
@@ -167,12 +170,18 @@ h4 {
 .sound-bites-section p {
   margin-top: 50px;
 }
+.sound-bites-section table {
+  margin-bottom: 50px;
+}
+/*.sound-bites-section td {
+  border: 1px solid black;
+}*/
 /* end of sound-bites-section */
 
 /* download-apps-section styling */
 .download-apps-section {
   background: url('images/download-hero.jpg') no-repeat center center;
-  padding-top: 250px;
+  padding-top: 150px;
   background-size: cover;
   height: 600px;
   color: white;
@@ -194,6 +203,10 @@ h4 {
   text-align: center;
   background-color: rgb(238,238,238);
 }
+.why-order-section h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .why-order-section img {
   border-radius: 50%;
   height: 200px;
@@ -210,10 +223,10 @@ h4 {
 .about-foodhub-section h2 {
   text-align: center;
   display: block;
-  margin-top: 75px;
+  margin-top: 100px;
 }
 .about-foodhub-section p {
-  margin-top: 30px;
+  margin-top: 60px;
   margin-right: 30px;
   line-height: 1.6;
 }
@@ -233,7 +246,7 @@ footer li {
   margin-bottom: 10px;
 }
 #sign-up-form {
-  margin-left: 20px;
+  margin-left: 40px;
 }
 #sign-up-form input {
   width: 100%;
