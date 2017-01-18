@@ -122,7 +122,7 @@ nav a {
 }
 .who-delivers-section h2 {
   color: white;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 #enter-address-form {
   color: white;
@@ -134,6 +134,9 @@ nav a {
 /* end of who-delivers-section syling */
 
 /* how-to-foodhub-section styling */
+.how-to-foodhub-section {
+  height: 500px;
+}
 .how-to-foodhub-section h2, .how-to-foodhub-section p, .how-to-foodhub-section
 h4 {
   text-align: center;
@@ -144,6 +147,7 @@ h4 {
   display: block;
   margin: 0 auto;
   margin-bottom: 20px;
+  margin-top: 50px;
 }
 /* end of how-to-foodhub-section styling */
 
@@ -170,7 +174,7 @@ h4 {
   background: url('images/download-hero.jpg') no-repeat center center;
   padding-top: 250px;
   background-size: cover;
-  height: 800px;
+  height: 600px;
   color: white;
   text-align: center;
 }
@@ -194,6 +198,9 @@ h4 {
   border-radius: 50%;
   height: 200px;
 }
+.why-order-section p {
+  margin-bottom: 50px;
+}
 /* end of why-order-section styling */
 
 /* about-foodhub-section styling */
@@ -207,6 +214,7 @@ h4 {
 }
 .about-foodhub-section p {
   margin-top: 30px;
+  margin-right: 30px;
   line-height: 1.6;
 }
 /* end of about-foodhub-section styling */
